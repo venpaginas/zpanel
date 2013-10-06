@@ -1,0 +1,100 @@
+body.login {
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(230,230,230,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(230,230,230,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(230,230,230,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(230,230,230,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(230,230,230,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(230,230,230,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-9 */
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden;
+}
+
+body.login p.message,
+body.login #login_error {
+	background: #efefef;
+	border: 1px solid #cccccc;
+	color: #7f7f7f;
+}
+
+body.login input[type=text],
+body.login input[type=password] {
+	background: #FFFFFF;
+	font-size: 24px;
+	line-height: normal;
+}
+
+body.login p .user_login,
+body.login p .user_pass {
+	display: none;
+}
+
+body.login p label br {
+	display: none;
+}
+
+body.login #loginform,
+body.login #lostpasswordform {
+	background: none;
+	padding: 0;
+	border: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+body.login div#login h1 a {
+	background-image: url(images/logo-login.png);
+}
+
+body.login div#login p.submit,
+body.login div#login p.forgetmenot,
+body.login div#login p#nav {
+	width: 100%;
+}
+
+body.login div#login p#nav {
+	padding-left: 0px;
+	margin: 10px;
+	text-align: center;
+}
+
+body.login div#login p#backtoblog {
+	display: none;
+}
+
+body.login div#login form#loginform p.submit input#wp-submit,
+body.login div#login form#lostpasswordform p.submit input#wp-submit {
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#1a000000',GradientType=0 ); /* IE6-9 */
+	background-color: #4DAC27;
+	width: 100%;
+	height: auto;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding: 4px 0px;
+	border: 1px solid #3D891F;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	box-shadow: inset 1px 1px 1px rgba(240,240,240,0.25);
+	-webkit-box-shadow: inset 1px 1px 1px rgba(240,240,240,0.25);
+	margin-bottom: 20px;
+}
+
+body.login p.forgetmenot {
+	width: 100%;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+body.login p.forgetmenot input {
+	float: left;
+	margin: 3px 7px 3px 0px;
+}
