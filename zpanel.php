@@ -9,7 +9,6 @@ Author: Zoombox
 Author URI: http://zoombox.com.br/
 */
 
-
 require_once('functions.php');
 require_once('woocommerce/settings/general.php');
 require_once('woocommerce/settings/pages.php');
